@@ -1,7 +1,13 @@
+import { Contact } from "./components/contact";
+import { Hero } from "./components/hero";
+import { RecentArticles } from "./components/recent-articles";
+
 export default function App() {
   return (
-    <main className="container">
-      <h1>TechBlog - Desafio 03</h1>
-    </main>
+    <>
+      <Hero />
+      <RecentArticles />
+      <Contact />
+    </>
   )
 }
