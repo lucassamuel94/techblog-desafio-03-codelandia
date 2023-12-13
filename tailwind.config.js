@@ -25,6 +25,7 @@ export default {
     },
     colors: {
       brand: '#846AFF',
+      background: '#F8F8FF',
       dark: {
         10: '#121214',
         20: '#7C7C8A',
