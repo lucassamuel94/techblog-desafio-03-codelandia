@@ -4,7 +4,7 @@ export const Hero = () => {
       id='home'
       className="bg-background lg:h-[560px] lg:flex lg:items-center">
       <div
-        className="container py-16 lg:py-0 flex flex-col items-center lg:flex-row gap-6 lg:justify-between max-w-[550px] lg:max-w-7xl">
+        className="container py-16 lg:py-0 flex flex-col items-center lg:flex-row gap-6 lg:justify-between lg:gap-12">
         <figure>
           <img
             src='hero-image.png'
@@ -13,7 +13,7 @@ export const Hero = () => {
         </figure>
 
         <div
-          className="lg:order-first text-center lg:text-left flex flex-col gap-6 lg:gap-8 lg:max-w-[581px]">
+          className="lg:order-first text-center lg:text-left flex flex-col gap-6 lg:gap-8 md:max-w-[581px]">
           <h2
             className="font-bold text-2xl md:text-[32px] lg:text-[40px] leading-tight">
             Encontre os <span className="text-brand">melhores artigos</span> de programação em um só lugar

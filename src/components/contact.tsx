@@ -78,22 +78,19 @@ export const Contact = () => {
 
         <Dialog defaultOpen={false} open={dialogOpen} onOpenChange={handleCloseDialog}>
           <DialogContent className="bg-background border-brand">
-            {/* <DialogHeader>
-            </DialogHeader> */}
-            <div className="flex items-center justify-between">
-              <DialogTitle className="lg:text-xl text-brand" >Dados enviados com sucesso!</DialogTitle>
+            <header className="flex items-center justify-between">
+              <DialogTitle className="text-lg md:text-xl text-brand" >Dados enviados com sucesso!</DialogTitle>
 
               <button
                 onClick={handleCloseDialog}
-                className="w-6 h-6 rounded-sm opacity-70 ring-offset-white transition-opacity hover:opacity-100 focus:bg-white hover:bg-white focus:outline-none focus:ring-2 focus:ring-dark-30 focus:ring-offset-2 disabled:pointer-events-none ">
+                className="w-6 h-6 grid place-items-center rounded-sm opacity-70 ring-offset-white transition-opacity hover:opacity-100 focus:bg-white hover:bg-white focus:outline-none focus:ring-2 focus:ring-dark-30 focus:ring-offset-2 disabled:pointer-events-none ">
                 <X className="h-4 w-4 lg:w-6 h:h-6" />
                 <span className="sr-only">Close Dialog</span>
               </button>
-            </div>
+            </header>
             <DialogDescription className="text-sm md:text-base">
-              Ual, agora você faz parte o seleto time vip da nossa comunidade.
-              <br />
-              Agora é só aguardar que em breve entraremos em contato!
+              Ual 🎉, agora você faz parte do seleto time vip da nossa comunidade.
+              Em breve entraremos em contato!
             </DialogDescription>
 
           </DialogContent>
