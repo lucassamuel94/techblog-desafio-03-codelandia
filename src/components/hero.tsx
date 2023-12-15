@@ -1,6 +1,7 @@
 export const Hero = () => {
   return (
     <section
+      id='home'
       className="bg-background lg:h-[560px] lg:flex lg:items-center">
       <div
         className="container py-16 lg:py-0 flex flex-col items-center lg:flex-row gap-6 lg:justify-between max-w-[550px] lg:max-w-7xl">
